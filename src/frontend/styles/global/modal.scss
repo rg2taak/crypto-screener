@@ -1,0 +1,44 @@
+.modal .modal-content {
+    background: #fff;
+    border-radius: 40px;
+    box-shadow: 0px 4px 7px #c7c7c7;
+    max-width: 420px !important;
+    width: 100%;
+}
+
+.modal-background {
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(8px);
+}
+
+.medium-modal .modal-content {
+    max-width: 680px !important;
+}
+
+.animation-content {
+    width: 100%;
+}
+
+.form-modal-container {
+    min-height: 85vh;
+    justify-content: center;
+    margin: 0px;
+    overflow: auto;
+}
+
+.form-modal-close {
+    position: absolute;
+    left: 2rem;
+    top: 2rem;
+    font-size: 2rem;
+    color: #BEBBC8;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background: url("~@IMAGES/cancel.png") no-repeat;
+    background-size: cover;
+}
+
+.modal-content, .modal-card {
+    overflow: hidden;
+}

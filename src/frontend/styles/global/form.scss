@@ -1,0 +1,116 @@
+.field.has-addons .control:first-child:not(:only-child) .button,
+.field.has-addons .control:first-child:not(:only-child) .input,
+.field.has-addons .control:first-child:not(:only-child) .select select {
+    border-bottom-right-radius: 0.95rem;
+    border-top-right-radius: 0.95rem;
+}
+
+.field.has-addons .control:last-child:not(:only-child) .button,
+.field.has-addons .control:last-child:not(:only-child) .input,
+.field.has-addons .control:last-child:not(:only-child) .select select {
+    border-bottom-left-radius: 0.95rem;
+    border-top-left-radius: 0.95rem;
+}
+
+.vpd-main .form-control {
+    height: 40px;
+}
+
+.vpd-main .form-control {
+    height: 40px;
+    width: 100%;
+}
+
+.vpd-input-group {
+    box-shadow: 0px 1px 3px #c7c7c7;
+    border-radius: 0.95rem;
+}
+
+.vpd-input-group .form-control {
+    border-bottom-left-radius: 0.95rem;
+    border-top-left-radius: 0.95rem;
+}
+
+.vpd-input-group input {
+    box-shadow: none;
+    border: none;
+}
+
+.vpd-icon-btn {
+    border-bottom-right-radius: 0.95rem;
+    border-top-right-radius: 0.95rem;
+    border-bottom-left-radius: 0rem;
+    border-top-left-radius: 0rem;
+    background-color: #fff !important;
+    box-shadow: unset;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-right: 1px solid #dbdbdb;
+}
+
+.vpd-icon-btn svg {
+    color: #bebbc8;
+    background: #bebbc8;
+}
+
+.vpd-input-group label {
+    color: #bebbc8 !important;
+}
+
+.button.is-primary.is-rounded.is-fullwidth {
+    box-shadow: 0px 4px 7px #c7c7c7;
+}
+
+.register-form {
+    background: #fff;
+    box-shadow: 0px 4px 7px #c7c7c7;
+    border-radius: 40px;
+    width: 100%;
+    padding: 0px;
+    height: 85vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+	top: 85px;
+}
+
+.register-form > .is-full-height {
+	height: 100%;
+	align-items: center;
+}
+
+.form-head-icon {
+    background: url("~@IMAGES/form.png") no-repeat;
+    background-size: contain;
+    width: 46px;
+    height: 46px;
+    margin: 0.5rem auto 0.5rem auto;
+}
+
+.form-head {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    height: 110px;
+}
+
+.register-container h2.subtitle {
+    color: #bebbc8;
+    font-size: 1.1rem;
+}
+
+.form-body {
+	height: 40vh;
+    overflow: auto;
+    margin-bottom: 1.5rem;
+}
+
+.form-footer {
+    height: 85px;
+}
+
+.select.is-rounded select,
+.input.is-rounded {
+    border-radius: 0.95rem;
+    box-shadow: 0px 1px 3px #e7e7e7;
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "educationGrade": {
+            "code": "ContinuousAssociate",
+            "name": "کاردانی پیوسته"
+        },
+        "fieldOfStudy": { "code": "Architecture", "name": "معماری" },
+        "academicOrientation": { "code": "Architecture", "name": "معماری" },
+        "university": {
+            "name": "(ع)امام صادق",
+            "location": {
+                "country": { "code": "IR", "name": "ایران" },
+                "province": { "code": "28", "name": "قزوین" },
+                "city": { "code": "1", "name": "قزوین" }
+            }
+        },
+        "educationStatus": { "code": "Graduate", "name": "فازغ التحصیل" },
+        "startDate": "2018-06-01",
+        "finishDate": "2020-12-01",
+        "thesis": "ساختمان کویر"
+    },
+    {
+        "educationGrade": {
+            "code": "ContinuousMasters",
+            "name": "کارشناسی پیوسته"
+        },
+        "fieldOfStudy": { "code": "Architecture", "name": "نقشه کشی معماری" },
+        "academicOrientation": {
+            "code": "DrawingArchitecture",
+            "name": "نقشه کشی معماری"
+        },
+        "university": {
+            "name": "امام صادق",
+            "location": {
+                "country": { "code": "IR", "name": "ایران" },
+                "province": { "code": "01", "name": "آذربایجان شرقی" },
+                "city": { "code": "1", "name": "تبریز" }
+            }
+        },
+        "educationStatus": { "code": "Studying", "name": "در حال تحصیل" },
+        "startDate": "2019-06-01",
+        "thesis": "ساختمان"
+    }
+]

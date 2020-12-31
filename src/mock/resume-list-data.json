@@ -1,0 +1,28 @@
+[
+    {
+        "province": { "code": "1", "name": "آذربایجان شرقی" },
+        "membershipId": "123456",
+        "membershipStartDate": "2017-01-25",
+        "membershipFinishDate": "2020-05-10",
+        "employmentLicense": {
+            "code": "987654321",
+            "level": { "code": "1", "name": "پایه یک" }
+        }
+    },
+    {
+        "province": { "code": "28", "name": "قزوین" },
+        "membershipId": "654321",
+        "membershipStartDate": "2017-01-25",
+        "membershipFinishDate": "2020-05-10",
+        "employmentLicense": {
+            "code": "5555",
+            "level": { "code": "2", "name": "پایه دو" }
+        }
+    },
+    {
+        "province": { "code": "2", "name": "آذربایجان غربی" },
+        "membershipId": "252525",
+        "membershipStartDate": "2017-01-25",
+        "membershipFinishDate": "2020-05-10"
+    }
+]

@@ -1,0 +1,23 @@
+TODO:
+    All components
+        [  ] Remove all buefy components and use pure html
+
+    material-status.vue
+        [OK] Set options data within a method, remove default data from definition
+
+    personal-information.vue
+        [OK] Use type for data()
+
+    identitification-information.vue
+        [OK] Use type for data()
+        [OK] Change name property value to "IdentificationInformation"
+
+    marital-status.vue
+        [OK] Use type for data()
+        [OK] Change name property value to "MartialStatus"
+
+    teach-information.vue
+        [  ] Empty component
+
+    file-upload.vue
+        [  ] Use type for data()

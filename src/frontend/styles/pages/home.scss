@@ -1,0 +1,11 @@
+/* Icons */
+$icon-width: 28px;
+$icon-height: 28px;
+
+.login-icon {
+    background-image: url("@IMAGES/sunset.svg");
+    background-repeat: none;
+    background-position: center center;
+    height: $icon-height;
+    width: $icon-width;
+}

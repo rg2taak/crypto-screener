@@ -1,0 +1,60 @@
+/* OTP CONFIRM */
+$char-w: 1ch;
+$gap: 0.5 * $char-w;
+$n-char: 6;
+$in-w: $n-char * ($char-w + $gap);
+
+@import "~@STYLES/global/dashboard.scss";
+@import "~@STYLES/global/form.scss";
+@import "~@STYLES/global/modal.scss";
+
+html {
+    direction: rtl;
+}
+
+body {
+    font-family: iranyekan, tahoma;
+    background: #f7f7f7;
+}
+
+/**
+* otp confirm
+**/
+input.seprate-char {
+    display: block;
+    margin: auto;
+    border: none;
+    padding: 0;
+    width: $in-w;
+    background: repeating-linear-gradient(
+            90deg,
+            dimgrey 0,
+            dimgrey $char-w,
+            transparent 0,
+            transparent $char-w + $gap
+        )
+        0 100% / #{$in-w - $gap} 2px no-repeat;
+
+    letter-spacing: $gap;
+    font: 5ch droid sans mono, consolas, monospace;
+    &:focus {
+        outline: none;
+        color: dodgerblue;
+    }
+}
+
+.centerize-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.small-dark-grey {
+    font-size: 0.65rem;
+    color: #494646;
+}
+
+/**
+* modal
+**/
+

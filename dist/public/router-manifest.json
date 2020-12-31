@@ -1,0 +1,365 @@
+{
+  "url": "http://localhost:8585",
+  "routes": {
+    "auth.login": {
+      "baseUrl": "/auth",
+      "alias": "auth.login",
+      "path": "/login",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "auth.login-by-user-data": {
+      "baseUrl": "/auth",
+      "alias": "auth.login-by-user-data",
+      "path": "/loginByUserData",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.request-otp-token": {
+      "baseUrl": "/auth",
+      "alias": "auth.request-otp-token",
+      "path": "/requestOtpToken",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.login-by-otp-token": {
+      "baseUrl": "/auth",
+      "alias": "auth.login-by-otp-token",
+      "path": "/loginByOtpToken",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.request-forget-password-token": {
+      "baseUrl": "/auth",
+      "alias": "auth.request-forget-password-token",
+      "path": "/requestForgetPasswordToken",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.reset-password": {
+      "baseUrl": "/auth",
+      "alias": "auth.reset-password",
+      "path": "/resetPassword",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.check-user-national-id": {
+      "baseUrl": "/auth",
+      "alias": "auth.check-user-national-id",
+      "path": "/checkUserNationalId",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.check-user-phone-number": {
+      "baseUrl": "/auth",
+      "alias": "auth.check-user-phone-number",
+      "path": "/checkUserPhoneNumber",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.new-user-register-request": {
+      "baseUrl": "/auth",
+      "alias": "auth.new-user-register-request",
+      "path": "/newUserRegisterRequest",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.confirm-new-user-register": {
+      "baseUrl": "/auth",
+      "alias": "auth.confirm-new-user-register",
+      "path": "/confirmNewUserRegister",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "auth.check-user-activation-code-reset-password": {
+      "baseUrl": "/auth",
+      "alias": "auth.check-user-activation-code-reset-password",
+      "path": "/checkUserActivationCodeRsesetPassword",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "country.countries": {
+      "baseUrl": "/countires",
+      "alias": "country.countries",
+      "path": "/",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "checkList.requestProvincesOfCountry": {
+      "baseUrl": "/checkList",
+      "alias": "checkList.requestProvincesOfCountry",
+      "path": "/requestProvincesOfCountry",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "checkList.cities": {
+      "baseUrl": "/checkList",
+      "alias": "checkList.cities",
+      "path": "/cities",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "country.request-provinces-of-country": {
+      "baseUrl": "/countires",
+      "alias": "country.request-provinces-of-country",
+      "path": "/requestProvincesOfCountry",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "country.request-cities-of-province": {
+      "baseUrl": "/countires",
+      "alias": "country.request-cities-of-province",
+      "path": "/requestCitiesOfProvince",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "country.request-cities-of-qazvin": {
+      "baseUrl": "/countires",
+      "alias": "country.request-cities-of-qazvin",
+      "path": "/requestCitiesOfQazvin",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "country.request-provinces-of-iran": {
+      "baseUrl": "/countires",
+      "alias": "country.request-provinces-of-iran",
+      "path": "/requestProvincesOfIran",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "contacts.request-contacts-list": {
+      "baseUrl": "/contacts",
+      "alias": "contacts.request-contacts-list",
+      "path": "/requestContactsList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "contacts.delete-address-item-list": {
+      "baseUrl": "/contacts",
+      "alias": "contacts.delete-address-item-list",
+      "path": "/deleteAddressItemList",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "contacts.request-address-types": {
+      "baseUrl": "/contacts",
+      "alias": "contacts.request-address-types",
+      "path": "/requestAddressTypes",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "contacts.confirm-new-address": {
+      "baseUrl": "/contacts",
+      "alias": "contacts.confirm-new-address",
+      "path": "/confirmNewAddress",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "eduResume.request-edu-resume-list": {
+      "baseUrl": "/eduResume",
+      "alias": "eduResume.request-edu-resume-list",
+      "path": "/requestEduResumeList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "eduResume.request-edu-grade-list": {
+      "baseUrl": "/eduResume",
+      "alias": "eduResume.request-edu-grade-list",
+      "path": "/requestEduGradeList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "eduResume.request-field-of-study-list": {
+      "baseUrl": "/eduResume",
+      "alias": "eduResume.request-field-of-study-list",
+      "path": "/requestFieldOfStudyList",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "eduResume.request-academic-orientation-list": {
+      "baseUrl": "/eduResume",
+      "alias": "eduResume.request-academic-orientation-list",
+      "path": "/requestAcademicOrientationList",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "eduResume.new-education-resume-register": {
+      "baseUrl": "/eduResume",
+      "alias": "eduResume.new-education-resume-register",
+      "path": "/newEducationResumeRegister",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "userIdentification.request-identification-information": {
+      "baseUrl": "/userIdentification",
+      "alias": "userIdentification.request-identification-information",
+      "path": "/requestIdentificationInformation",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "userIdentification.register-user-identification-information": {
+      "baseUrl": "/userIdentification",
+      "alias": "userIdentification.register-user-identification-information",
+      "path": "/registerUserIdentificationInformation",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "userIdentification.load-bc-letter-code-list": {
+      "baseUrl": "/userIdentification",
+      "alias": "userIdentification.load-bc-letter-code-list",
+      "path": "/loadBcLetterCodeList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "nationalId.request-national-id-data": {
+      "baseUrl": "/nationalId",
+      "alias": "nationalId.request-national-id-data",
+      "path": "/requestNationalIdData",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "nationalId.register-national-id-card": {
+      "baseUrl": "/nationalId",
+      "alias": "nationalId.register-national-id-card",
+      "path": "/registerNationalIdCard",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "orgResume.request-org-resume-list": {
+      "baseUrl": "/orgResume",
+      "alias": "orgResume.request-org-resume-list",
+      "path": "/requestOrgResumeList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "orgResume.delete-org-resume-item-list": {
+      "baseUrl": "/orgResume",
+      "alias": "orgResume.delete-org-resume-item-list",
+      "path": "/deleteOrgResumeItemList",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "orgResume.request-provinces-of-iran": {
+      "baseUrl": "/orgResume",
+      "alias": "orgResume.request-provinces-of-iran",
+      "path": "/requestProvincesOfIran",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "orgResume.request-license-level-list": {
+      "baseUrl": "/orgResume",
+      "alias": "orgResume.request-license-level-list",
+      "path": "/requestLicenseLevelList",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "orgResume.confirm-new-org-resume": {
+      "baseUrl": "/orgResume",
+      "alias": "orgResume.confirm-new-org-resume",
+      "path": "/confirmNewOrgResume",
+      "keys": [],
+      "method": [
+        "post"
+      ]
+    },
+    "home.logout": {
+      "baseUrl": "",
+      "alias": "home.logout",
+      "path": "/logout",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "home.index": {
+      "baseUrl": "",
+      "alias": "home.index",
+      "path": "/",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    },
+    "screener.request-crypto-screener-list-data": {
+      "baseUrl": "/screener",
+      "alias": "screener.request-crypto-screener-list-data",
+      "path": "/requestCryptoScreenerListData",
+      "keys": [],
+      "method": [
+        "get"
+      ]
+    }
+  }
+}

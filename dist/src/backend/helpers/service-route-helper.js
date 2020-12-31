@@ -1,0 +1,63 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.Routes = void 0;
+exports.Routes = {
+    "auth.request-otp-token-register": "http://185.165.40.114:8008/auth/newUserRegisterRequest",
+    "auth.confirm-new-user-register": "http://185.165.40.114:8008/auth/confirmNewUserRegister",
+    "auth.check-user-national-id": "http://185.165.40.114:8008/auth/checkUserNationalId",
+    "auth.check-user-phone-number": "http://185.165.40.114:8008/auth/checkUserPhoneNumber",
+    "auth.reset-password": "http://185.165.40.114:8008/auth/resetPassword",
+    "auth.request-forget-password-token": "http://185.165.40.114:8008/auth/requestForgetPasswordToken",
+    "auth.check-user-activation-code-rseset-password": "http://185.165.40.114:8008/auth/checkUserActivationCodeRsesetPassword",
+    "auth.request-otp-token": "http://185.165.40.114:8008/auth/requestOtpToken",
+    "auth.login-by-user-data": "http://185.165.40.114:8008/auth/loginByUserData",
+    "auth.login-by-otp-token": "http://185.165.40.114:8008/auth/loginByOtpToken",
+    /************************************************************************ */
+    "auth.request-countries-list": "http://185.165.40.114:8009/api/location/requestCountriesList",
+    "auth.request-provinces-of-country": "http://185.165.40.114:8009/api/location/requestProvincesOfCountry/#COUNTRY-ID#",
+    "auth.request-cities-of-province": "http://185.165.40.114:8009/api/location/requestCitiesOfProvince/#PROVINCE-ID#",
+    "auth.request-provinces-of-iran": "http://185.165.40.114:8009/api/location/requestProvincesOfIran",
+    "auth.request-cities-of-qazvin": "http://185.165.40.114:8009/api/location/requestCitiesOfQazvin",
+    /************************************************************************ */
+    "education.request-sections": "http://185.165.40.114:8009/api/education/list/requestSections",
+    "education.request-study-fields": "http://185.165.40.114:8009/api/education/list/requestStudyFields",
+    "education.request-status": "http://185.165.40.114:8009/api/education/list/requestStatus",
+    /************************************************************************ */
+    "education.request-licence-level": "http://185.165.40.114:8009/api/employment/resume/requestLicenceLevel",
+    /************************************************************************ */
+    "eduResume.register-education-resume": "http://185.165.40.114:8009/api/employment/resume/education/registerEducationResume",
+    "eduResume.request-education-resume": "http://185.165.40.114:8009/api/employment/resume/education/requestEducationResume",
+    "eduResume.request-for-confirm-education-resume": "http://185.165.40.114:8009/api/employment/resume/education/requestForConfirmEducationResume",
+    "eduResume.request-for-delete-education-resume": "http://185.165.40.114:8009/api/employment/resume/education/requestForDeleteEducationResume",
+    "eduResume.request-for-edit-education-resume": "http://185.165.40.114:8009/api/employment/resume/education/requestForEditEducationResume",
+    /************************************************************************ */
+    "orgResume.register-employment-membership-resume": "http://185.165.40.114:8009/api/employment/resume/membership/registerEmploymentMembershipResume",
+    "orgResume.request-employment-membership-resume": "http://185.165.40.114:8009/api/employment/resume/membership/requestEmploymentMembershipResume",
+    "orgResume.request-for-confirm-employment-membership-resume": "http://185.165.40.114:8009/api/employment/resume/membership/requestForConfirmEmploymentMembershipResume",
+    "orgResume.request-for-delete-employment-membership-resume": "http://185.165.40.114:8009/api/employment/resume/membership/requestForDeleteEmploymentMembershipResume",
+    "orgResume.request-for-edit-employment-membership-resume": "http://185.165.40.114:8009/api/employment/resume/membership/requestForEditEmploymentMembershipResume",
+    /************************************************************************ */
+    "userId.register-user-identification-information": "http://185.165.40.114:8009/api/userIdentification/registerUserIdentificationInformation",
+    "userId.request-user-identification-information": "http://185.165.40.114:8009/api/userIdentification/requestUserIdentificationInformation",
+    /************************************************************************ */
+    "contacts.request-address": "http://185.165.40.114:8009/api/employment/address/requestAddress/#NATIONAL-ID#",
+    "contacts.register-address": "http://185.165.40.114:8009/api/employment/address/registerAddress",
+    "contacts.request-for-confirm-address": "http://185.165.40.114:8009/api/employment/address/requestForConfirmAddress",
+    "contacts.request-for-delete-address": "http://185.165.40.114:8009/api/employment/address/requestForDeleteAddress",
+    "contacts.request-for-edit-address": "http://185.165.40.114:8009/api/employment/address/requestForEditAddress",
+    /************************************************************************ */
+    "auth.login": "http://185.165.40.114:8585/auth/login",
+    "userId.reg-user-id-info": "http://185.165.40.114:8009/api/userIdentification/requestUserIdentificationInformation",
+    "eduResume.req-eud-resume-list": "http://185.165.40.114:8586/user/id/reg",
+    "eduResume.req-edu-grad-list": "http://185.165.40.114:8586/user/id/reg",
+    "eduResume.req-field-of-study-list": "http://185.165.40.114:8586/user/id/reg",
+    "eduResume.req-academic-orientation-list": "http://185.165.40.114:8586/user/id/reg",
+    "orgResume.request-org-resume-list": "http://185.165.40.114:8586/user/id/reg",
+    "orgResume.delete-org-resume-item": "http://185.165.40.114:8586/user/id/reg",
+    "orgResume.request-province": "http://185.165.40.114:8586/user/id/reg",
+    "contacts.request-contacts-list": "http://185.165.40.114:8586/api/employment/address/requestAddress",
+    "contacts.delete-address-item-list": "http://185.165.40.114:8586/api/employment/address/requestForDeleteAddress",
+    "contacts.request-address-types": "http://185.165.40.114:8586/api/employment/address/requestAddressTypes",
+    "contacts.confirm-new-address": "http://185.165.40.114:8586/api/employment/address/registerAddress",
+};
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic2VydmljZS1yb3V0ZS1oZWxwZXIuanMiLCJzb3VyY2VSb290Ijoic3JjLyIsInNvdXJjZXMiOlsic3JjL2JhY2tlbmQvaGVscGVycy9zZXJ2aWNlLXJvdXRlLWhlbHBlci50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7QUFBYSxRQUFBLE1BQU0sR0FBRztJQUNsQixpQ0FBaUMsRUFDN0Isd0RBQXdEO0lBQzVELGdDQUFnQyxFQUM1Qix3REFBd0Q7SUFDNUQsNkJBQTZCLEVBQ3pCLHFEQUFxRDtJQUN6RCw4QkFBOEIsRUFDMUIsc0RBQXNEO0lBQzFELHFCQUFxQixFQUFFLCtDQUErQztJQUN0RSxvQ0FBb0MsRUFDaEMsNERBQTREO0lBQ2hFLGlEQUFpRCxFQUFFLHVFQUF1RTtJQUMxSCx3QkFBd0IsRUFBRSxpREFBaUQ7SUFDM0UseUJBQXlCLEVBQ3JCLGlEQUFpRDtJQUNyRCx5QkFBeUIsRUFDckIsaURBQWlEO0lBQ3JELDRFQUE0RTtJQUM1RSw2QkFBNkIsRUFDekIsOERBQThEO0lBQ2xFLG1DQUFtQyxFQUMvQixnRkFBZ0Y7SUFDcEYsaUNBQWlDLEVBQzdCLCtFQUErRTtJQUNuRixnQ0FBZ0MsRUFDNUIsZ0VBQWdFO0lBQ3BFLCtCQUErQixFQUMzQiwrREFBK0Q7SUFDbkUsNEVBQTRFO0lBQzVFLDRCQUE0QixFQUN4QiwrREFBK0Q7SUFDbkUsZ0NBQWdDLEVBQzVCLGtFQUFrRTtJQUN0RSwwQkFBMEIsRUFDdEIsNkRBQTZEO0lBQ2pFLDRFQUE0RTtJQUM1RSxpQ0FBaUMsRUFDN0Isc0VBQXNFO0lBQzFFLDRFQUE0RTtJQUM1RSxxQ0FBcUMsRUFDakMsb0ZBQW9GO0lBQ3hGLG9DQUFvQyxFQUNoQyxtRkFBbUY7SUFDdkYsZ0RBQWdELEVBQzVDLDZGQUE2RjtJQUNqRywrQ0FBK0MsRUFDM0MsNEZBQTRGO0lBQ2hHLDZDQUE2QyxFQUN6QywwRkFBMEY7SUFDOUYsNEVBQTRFO0lBQzVFLGlEQUFpRCxFQUM3QyxnR0FBZ0c7SUFDcEcsZ0RBQWdELEVBQzVDLCtGQUErRjtJQUNuRyw0REFBNEQsRUFDeEQseUdBQXlHO0lBQzdHLDJEQUEyRCxFQUN2RCx3R0FBd0c7SUFDNUcseURBQXlELEVBQ3JELHNHQUFzRztJQUMxRyw0RUFBNEU7SUFDNUUsaURBQWlELEVBQzdDLHlGQUF5RjtJQUM3RixnREFBZ0QsRUFDNUMsd0ZBQXdGO0lBQzVGLDRFQUE0RTtJQUM1RSwwQkFBMEIsRUFDdEIsZ0ZBQWdGO0lBQ3BGLDJCQUEyQixFQUN2QixtRUFBbUU7SUFDdkUsc0NBQXNDLEVBQ2xDLDRFQUE0RTtJQUNoRixxQ0FBcUMsRUFDakMsMkVBQTJFO0lBQy9FLG1DQUFtQyxFQUMvQix5RUFBeUU7SUFDN0UsNEVBQTRFO0lBRTVFLFlBQVksRUFBRSx1Q0FBdUM7SUFDckQseUJBQXlCLEVBQ3JCLHdGQUF3RjtJQUM1RiwrQkFBK0IsRUFBRSx3Q0FBd0M7SUFDekUsNkJBQTZCLEVBQUUsd0NBQXdDO0lBQ3ZFLG1DQUFtQyxFQUMvQix3Q0FBd0M7SUFDNUMseUNBQXlDLEVBQ3JDLHdDQUF3QztJQUM1QyxtQ0FBbUMsRUFDL0Isd0NBQXdDO0lBQzVDLGtDQUFrQyxFQUM5Qix3Q0FBd0M7SUFDNUMsNEJBQTRCLEVBQUUsd0NBQXdDO0lBQ3RFLGdDQUFnQyxFQUM1QixrRUFBa0U7SUFDdEUsbUNBQW1DLEVBQy9CLDJFQUEyRTtJQUMvRSxnQ0FBZ0MsRUFDNUIsdUVBQXVFO0lBQzNFLDhCQUE4QixFQUMxQixtRUFBbUU7Q0FDMUUsQ0FBQyJ9

@@ -1,0 +1,14 @@
+[
+  {
+    "code": "Graduate",
+    "name": "فارغ التحصیل"
+  },
+  {
+    "code": "Studying",
+    "name": "در حال تحصیل"
+  },
+  {
+    "code": "Dropout",
+    "name": "ترک تحصیل"
+  }
+]

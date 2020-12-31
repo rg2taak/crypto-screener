@@ -1,0 +1,27 @@
+[
+    {
+        "firstName": "رضا",
+        "lastName": "قاسمی",
+        "latinFirstName": "Reza",
+        "latinLastName": "Ghasemi",
+        "fatherName": "غلامحسین",
+        "birthCertificateNumber": "5004",
+        "birthCertificateSerial": {
+            "bcLetterCode": { "code": "A", "name": "الف" },
+            "bcNumberCode": "89",
+            "serial": "123456"
+        },
+        "nationality": "ایران",
+        "birthCountry": {
+            "country": { "code": "IR", "name": "ایران" },
+            "province": { "code": "28", "name": "قزوین" },
+            "city": { "code": "2", "name": "تاکستان" }
+        },
+        "birthCertificateExportPlaceCountry": {
+            "country": { "code": "IR", "name": "ایران" },
+            "province": { "code": "28", "name": "قزوین" },
+            "city": { "code": "1", "name": "قزوین" }
+        },
+        "birthCertificateExportPlaceZone": "8"
+    }
+]
