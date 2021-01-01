@@ -15,7 +15,7 @@ export default class CryptoScreenerHelper {
      * Clear session data
      * @param req Express.Request request object
      */
-    public static  async requestCryptoScreener(): Promise<ActionResultType> {
+    public static async requestCryptoScreener(): Promise<ActionResultType> {
         const url = "https://scanner.tradingview.com/crypto/scan";
 
         let filters: Array<FilterType> = [
@@ -84,11 +84,12 @@ export default class CryptoScreenerHelper {
             url,
             JSON.stringify(dataFilter)
         );
-        console.log(axiosResult.data.data);
-        let result={
-            success:true,
-            data:axiosResult.data.data
-        }as ActionResultType;
+
+        let result = {
+            success: true,
+            data: axiosResult.data.data,
+        } as ActionResultType;
+
         return result;
     }
 }

@@ -2,7 +2,7 @@
 .register-container
     .container
         b-table.table.is-striped.is-narrow.is-hoverable.is-fullwidth(
-            :data="cryptoScreener"
+            :data="cryptoScreener.new"
         )
             b-table-column.tv-screener-table__symbol-container(v-slot="props")
                 span.tv-circle-logo-pair.tv-circle-logo-pair--medium.tv-screener-table__logo-container
@@ -25,13 +25,15 @@
                 | {{ props.row.d[3] }}
 
             b-table-column(label="تغییر ٪", v-slot="props")
-                | {{ props.row.d[4] }}
+                | {{ parseFloat(props.row.d[4]).toFixed(2) }}%
             b-table-column(label="تغییر", v-slot="props")
                 | {{ props.row.d[5] }}
             b-table-column(label="بیشترین", v-slot="props")
                 | {{ props.row.d[6] }}
             b-table-column(label="کمترین", v-slot="props")
                 | {{ props.row.d[7] }}
+            b-table-column(label="حجم معاملات", v-slot="props")
+                | {{ parseFloat(parseInt(props.row.d[8]) / 1000000).toFixed(3) }}M
             b-table-column(label="پیشنهاد", v-slot="props")
                 | {{ getStatus(props.row.d[9]) }}
             b-table-column(label="صرافی", v-slot="props")
@@ -52,6 +54,7 @@ import CryptoScreenerListStore, {
 import { resourceLimits } from "worker_threads";
 import { LicenseLevelDataType } from "@Lib/types/frontend/members/organization-resume/license-level-data-type";
 import { EmploymentLicenseType } from "@Lib/types/frontend/members/organization-resume/employment-license-type";
+import IHash from "@Lib/interfaces/hash-interface";
 
 Vue.use(Buefy, {
     defaultIconPack: "fas",
@@ -61,7 +64,7 @@ Vue.use(Buefy, {
  * Resume List Form Data Type
  */
 export type ResumeListFormDataType = {
-    cryptoScreener: Array<OrganizationResumeDataType>;
+    cryptoScreener: IHash<any>;
 };
 
 /**
@@ -74,16 +77,15 @@ export default Vue.extend({
 
     data: () =>
         ({
-            checkMarkIcon: '<i class="has-text-success fas fa-check"></i>',
-            timeIcon: '<i class="has-text-danger fas fa-times"></i>',
-            cryptoScreener: [],
+            cryptoScreener: {} as IHash<any>,
         } as ResumeListFormDataType),
 
     /**
      * Created
      */
     created(): void {
-        setInterval(this.loadcryptoScreenerListData, 10000);
+        // this.loadcryptoScreenerListData();
+        // setInterval(this.loadcryptoScreenerListData, 2000);
     },
 
     /**
@@ -126,15 +128,27 @@ export default Vue.extend({
             const result: ActionResultType = await this.$store.dispatch(
                 CryptoScreenerListStoreActions.RequestCryptoScreenerListData
             );
-            console.log(result.data);
-            Vue.set(this, "cryptoScreener", result.data);
+
+            const r: IHash<any> = {};
+            await result.data?.forEach((x: any) => {
+                r[x.s] = {
+                    new: x.d,
+                    last: (this.cryptoScreener[x.s] || {}).new,
+                };
+            });
+
+            Vue.set(this, "cryptoScreener", r);
         },
 
         /**
          * Append a new resume
          */
         async appendResume(item: OrganizationResumeDataType) {
-            Vue.set(this.cryptoScreener, this.cryptoScreener.length, item);
+            Vue.set(
+                this.cryptoScreener.new,
+                this.cryptoScreener.new.length,
+                item
+            );
         },
 
         /**
@@ -174,7 +188,9 @@ export default Vue.extend({
             return DateHelper.toPersianDate(date);
         },
         setimage(src: string): string {
-            return "https://s3-symbol-logo.tradingview.com/" + src + ".svg";
+            if (src != "")
+                return "https://s3-symbol-logo.tradingview.com/" + src + ".svg";
+            return "https://www.tradingview.com/static/bundles/f32495a10fb70afbec275bd3257abcb9.svg";
         },
         getStatus(recommendAll: string): string {
             let recAll = parseFloat(recommendAll);
@@ -218,8 +234,8 @@ export default Vue.extend({
     user-select: text !important;
 }
 .tv-circle-logo-pair__logo:last-child {
-    top: -3px;
-    left: -3px;
+    top: -4px;
+    left: -4px;
     border: 1px solid #fff;
 }
 .tv-circle-logo-pair__logo:first-child,
@@ -253,7 +269,6 @@ export default Vue.extend({
     text-transform: uppercase;
     overflow: hidden;
     text-overflow: ellipsis;
-    vertical-align: bottom;
 }
 .tv-screener__symbol {
     display: inline-block;

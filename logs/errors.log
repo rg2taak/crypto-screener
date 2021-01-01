@@ -152,3 +152,43 @@
 	{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":6379}
 [error]	2020-12-29T19:47:59.113Z
 	{"errno":-111,"code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":6379}
+[error]	2020-12-31T14:49:20.765Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:03:27.002Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:03:36.464Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:03:46.469Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:03:56.435Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:04:06.459Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:04:16.463Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:32:30.874Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:32:40.454Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:32:50.481Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:00.470Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:10.461Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:20.470Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:30.450Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:40.461Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:33:50.475Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:34:00.436Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:34:10.467Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:34:20.471Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}
+[error]	2020-12-31T15:34:30.437Z
+	{"text":"Server Internal Error!","error":"{\"path\":\"/home/reza/Documents/1/crypto-screener/views/pages/auth/login.pug\"}"}

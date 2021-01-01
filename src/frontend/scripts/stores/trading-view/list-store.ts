@@ -2,8 +2,6 @@ import * as _ from "lodash";
 import Vue from "vue";
 import * as Vuex from "vuex";
 import { ActionResultType } from "@Lib/types/core/action-result-type";
-import OrganizationResumeListData from "@FE/Scripts/modules/engineer-membership/organization-resume/list-module";
-import { OrganizationResumeDataType } from "@Lib/types/frontend/members/organization-resume/resume-data-type";
 import ScreenerListDataModule from "@FE/Scripts/modules/trading-view/screener-module";
 
 Vue.use(Vuex);
@@ -39,19 +37,6 @@ const actions = {
         data:creptoScreenerList.data
       }
     return creptoScreenerList;
-  },
-
-  /**
- * request organization resume list data
- */
-  async deleteOrgResumeItemList(
-    context: any,
-    item: OrganizationResumeDataType,
-  ): Promise<ActionResultType> {
-    let educationList: ActionResultType = (await OrganizationResumeListData
-      .deleteOrgResumeItemList(item)) as ActionResultType;
-
-    return educationList;
   },
 };
 

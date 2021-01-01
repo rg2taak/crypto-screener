@@ -1,7 +1,5 @@
 import { NextFunction, Request, Response } from "express";
 import { ActionResultType } from "@Lib/types/core/action-result-type";
-import UserIdentificationInformationHelper from "@BE/helpers/engineer-membership/user-identification-information-helper";
-import { UserIdentificationInformationType } from "@Lib/types/frontend/identification/user-identification-information-type";
 import { NationalIDType } from "@Lib/validation/national-id-type";
 import AuthHelper from "@BE/helpers/auth-helper";
 import ISessionDataModel from "@BE/data-model/session-data-model";
