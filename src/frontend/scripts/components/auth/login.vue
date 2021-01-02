@@ -5,7 +5,7 @@
             .column.is-3
                 logo
                 .logo-title
-                    | سازمان نظام مهندسی ساختمان استان قزوین
+                    | سامانه اسکرینر رمز ارزها
 
                 login-form(
                     v-if="isLoginMode",
@@ -131,7 +131,7 @@ export default Vue.extend({
 .logo-title {
     font-size: 1.1rem;
     font-weight: 100;
-    color: #494646;
+    color: #d2d2d2;
     text-align: center;
     padding: 3px 15px 40px 15px;
 }

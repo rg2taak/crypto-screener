@@ -116,7 +116,7 @@ export default class UserModel implements IDBModel {
     schema.methods.changePwd = async function changePwd(
       newPwd: string,
     ): Promise<any> {
-      this.pwd = newPwd;
+      // this.pwd = newPwd;
       return this.save();
     };
 

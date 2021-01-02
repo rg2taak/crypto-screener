@@ -287,7 +287,8 @@ export default Vue.extend({
 </script>
 
 <style scoped>
-.form-header {
+.form-header,.login-form a {
     margin: 0px 9px 9px 0px;
+    color: #d2d2d2;
 }
 </style>

@@ -2,42 +2,46 @@
 .register-container
     .container
         b-table.table.is-striped.is-narrow.is-hoverable.is-fullwidth(
-            :data="cryptoScreener.new"
+            :data="cryptoScreener"
         )
             b-table-column.tv-screener-table__symbol-container(v-slot="props")
                 span.tv-circle-logo-pair.tv-circle-logo-pair--medium.tv-screener-table__logo-container
                     img.tv-circle-logo-pair__logo.v-circle-logo-pair__logo--medium(
-                        :src="setimage(props.row.d[1])"
+                        :src="setimage(props.row.new[1])"
                     )
                     img.tv-circle-logo-pair__logo.v-circle-logo-pair__logo--medium(
-                        :src="setimage(props.row.d[0])"
+                        :src="setimage(props.row.new[0])"
                     )
             b-table-column(label="نماد", v-slot="props")
                 div
                     a.tv-screener__symbol.apply-common-tooltip(
-                        :title="props.row.d[11]",
+                        :title="props.row.new[11]",
                         href="#"
                     )
-                        | {{ props.row.d[2] }}
+                        | {{ props.row.new[2] }}
                     span.tv-screener__description
-                        | {{ props.row.d[11] }}
-            b-table-column(label="آخرین قیمت", v-slot="props")
-                | {{ props.row.d[3] }}
+                        | {{ props.row.new[11] }}
+            b-table-column(
+                label="آخرین قیمت",
+                v-slot="props",
+                v-class="{active: isActive}"
+            )
+                | {{ props.row.new[3] - props.row.last[3] }}
 
             b-table-column(label="تغییر ٪", v-slot="props")
-                | {{ parseFloat(props.row.d[4]).toFixed(2) }}%
+                | {{ parseFloat(props.row.new[4]).toFixed(2) }}%
             b-table-column(label="تغییر", v-slot="props")
-                | {{ props.row.d[5] }}
+                | {{ parseFloat(props.row.new[5]).toFixed(10)}}
             b-table-column(label="بیشترین", v-slot="props")
-                | {{ props.row.d[6] }}
+                | {{ props.row.new[6] }}
             b-table-column(label="کمترین", v-slot="props")
-                | {{ props.row.d[7] }}
+                | {{ props.row.new[7] }}
             b-table-column(label="حجم معاملات", v-slot="props")
-                | {{ parseFloat(parseInt(props.row.d[8]) / 1000000).toFixed(3) }}M
+                | {{ parseFloat(parseInt(props.row.new[8]) / 1000000).toFixed(3) }}M
             b-table-column(label="پیشنهاد", v-slot="props")
-                | {{ getStatus(props.row.d[9]) }}
+                | {{ getStatus(props.row.new[9]) }}
             b-table-column(label="صرافی", v-slot="props")
-                | {{ props.row.d[10] }}
+                | {{ props.row.new[10] }}
 </template>
 
 <script lang="ts">
@@ -64,6 +68,8 @@ Vue.use(Buefy, {
  * Resume List Form Data Type
  */
 export type ResumeListFormDataType = {
+    isActive: boolean;
+
     cryptoScreener: IHash<any>;
 };
 
@@ -77,6 +83,8 @@ export default Vue.extend({
 
     data: () =>
         ({
+            isActive: true as boolean,
+
             cryptoScreener: {} as IHash<any>,
         } as ResumeListFormDataType),
 
@@ -84,10 +92,9 @@ export default Vue.extend({
      * Created
      */
     created(): void {
-        // this.loadcryptoScreenerListData();
-        // setInterval(this.loadcryptoScreenerListData, 2000);
+        this.loadcryptoScreenerListData();
+        setInterval(this.loadcryptoScreenerListData, 2000);
     },
-
     /**
      * Methods
      */
@@ -136,7 +143,7 @@ export default Vue.extend({
                     last: (this.cryptoScreener[x.s] || {}).new,
                 };
             });
-
+            console.log(r);
             Vue.set(this, "cryptoScreener", r);
         },
 

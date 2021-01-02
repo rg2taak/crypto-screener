@@ -54029,3 +54029,218 @@ Server started
             HOST  localhost
        LOCAL-URL  http://localhost:8585
       SERVER-URL  http://localhost:8585
+[info]	2021-01-02T20:51:41.935Z
+	[33mLogger module[39m loaded successfully
+[info]	2021-01-02T20:51:41.948Z
+	[33mRouterInitialized[39m event-handler registered successfully
+[info]	2021-01-02T20:51:41.983Z
+	[33mServerInit[39m event-handler registered successfully
+[info]	2021-01-02T20:51:41.984Z
+	[33mEvents module[39m loaded successfully
+[warn]	2021-01-02T20:51:41.987Z
+	[33mNo any database engine has been selected[39m
+[info]	2021-01-02T20:51:41.988Z
+	[33mDatabase module[39m loaded successfully
+[info]	2021-01-02T20:51:42.041Z
+	Route [33mAuthRoute[39m:[32m/auth[39m loaded successfully
+[info]	2021-01-02T20:51:42.045Z
+	Route [33mHomeRoute[39m: loaded successfully
+[info]	2021-01-02T20:51:42.049Z
+	Route [33mscreenerRoute[39m:[32m/screener[39m loaded successfully
+[info]	2021-01-02T20:51:42.081Z
+	[33mRouter module[39m loaded successfully
+[info]	2021-01-02T20:51:42.116Z
+	[33mSession[39m initialized successfully
+[info]	2021-01-02T20:51:42.117Z
+	Express router [33m/auth[39m applied
+[info]	2021-01-02T20:51:42.117Z
+	Express router  applied
+[info]	2021-01-02T20:51:42.118Z
+	Express router [33m/screener[39m applied
+[info]	2021-01-02T20:51:42.133Z
+	[33mExpress module[39m loaded successfully
+[info]	2021-01-02T20:51:42.134Z
+	[33mSystem booted successfully[39m
+[info]	2021-01-02T20:51:42.135Z
+	[33mServerInit[39m handler initialized successfully
+	Sun Jan 03 2021 00:21:42 GMT+0330 (Iran Standard Time)
+[info]	2021-01-02T20:51:42.145Z
+	
+Server started
+        PROTOCOL  [33mhttp[39m
+            PORT  [33m8585[39m
+            HOST  [33mlocalhost[39m
+       LOCAL-URL  [34mhttp://localhost:8585[39m
+      SERVER-URL  [31mhttp://localhost:8585[39m
+[info]	2021-01-02T20:54:11.753Z
+	[33mLogger module[39m loaded successfully
+[info]	2021-01-02T20:54:11.774Z
+	[33mRouterInitialized[39m event-handler registered successfully
+[info]	2021-01-02T20:54:11.801Z
+	[33mServerInit[39m event-handler registered successfully
+[info]	2021-01-02T20:54:11.802Z
+	[33mEvents module[39m loaded successfully
+[warn]	2021-01-02T20:54:11.804Z
+	[33mNo any database engine has been selected[39m
+[info]	2021-01-02T20:54:11.805Z
+	[33mDatabase module[39m loaded successfully
+[info]	2021-01-02T20:54:11.839Z
+	Route [33mAuthRoute[39m:[32m/auth[39m loaded successfully
+[info]	2021-01-02T20:54:11.842Z
+	Route [33mHomeRoute[39m: loaded successfully
+[info]	2021-01-02T20:54:11.846Z
+	Route [33mscreenerRoute[39m:[32m/screener[39m loaded successfully
+[info]	2021-01-02T20:54:11.860Z
+	[33mRouter module[39m loaded successfully
+[info]	2021-01-02T20:54:11.888Z
+	[33mSession[39m initialized successfully
+[info]	2021-01-02T20:54:11.889Z
+	Express router [33m/auth[39m applied
+[info]	2021-01-02T20:54:11.890Z
+	Express router  applied
+[info]	2021-01-02T20:54:11.891Z
+	Express router [33m/screener[39m applied
+[info]	2021-01-02T20:54:11.898Z
+	[33mExpress module[39m loaded successfully
+[info]	2021-01-02T20:54:11.899Z
+	[33mSystem booted successfully[39m
+[info]	2021-01-02T20:54:11.900Z
+	[33mServerInit[39m handler initialized successfully
+	Sun Jan 03 2021 00:24:11 GMT+0330 (Iran Standard Time)
+[info]	2021-01-02T20:54:11.919Z
+	
+Server started
+        PROTOCOL  [33mhttp[39m
+            PORT  [33m8585[39m
+            HOST  [33mlocalhost[39m
+       LOCAL-URL  [34mhttp://localhost:8585[39m
+      SERVER-URL  [31mhttp://localhost:8585[39m
+[info]	2021-01-02T20:54:16.948Z
+	[33mLogger module[39m loaded successfully
+[info]	2021-01-02T20:54:16.969Z
+	[33mRouterInitialized[39m event-handler registered successfully
+[info]	2021-01-02T20:54:16.999Z
+	[33mServerInit[39m event-handler registered successfully
+[info]	2021-01-02T20:54:17.000Z
+	[33mEvents module[39m loaded successfully
+[warn]	2021-01-02T20:54:17.002Z
+	[33mNo any database engine has been selected[39m
+[info]	2021-01-02T20:54:17.003Z
+	[33mDatabase module[39m loaded successfully
+[info]	2021-01-02T20:54:17.070Z
+	Route [33mAuthRoute[39m:[32m/auth[39m loaded successfully
+[info]	2021-01-02T20:54:17.074Z
+	Route [33mHomeRoute[39m: loaded successfully
+[info]	2021-01-02T20:54:17.079Z
+	Route [33mscreenerRoute[39m:[32m/screener[39m loaded successfully
+[info]	2021-01-02T20:54:17.092Z
+	[33mRouter module[39m loaded successfully
+[info]	2021-01-02T20:54:17.118Z
+	[33mSession[39m initialized successfully
+[info]	2021-01-02T20:54:17.119Z
+	Express router [33m/auth[39m applied
+[info]	2021-01-02T20:54:17.120Z
+	Express router  applied
+[info]	2021-01-02T20:54:17.120Z
+	Express router [33m/screener[39m applied
+[info]	2021-01-02T20:54:17.125Z
+	[33mExpress module[39m loaded successfully
+[info]	2021-01-02T20:54:17.126Z
+	[33mSystem booted successfully[39m
+[info]	2021-01-02T20:54:17.127Z
+	[33mServerInit[39m handler initialized successfully
+	Sun Jan 03 2021 00:24:17 GMT+0330 (Iran Standard Time)
+[info]	2021-01-02T20:54:17.145Z
+	
+Server started
+        PROTOCOL  [33mhttp[39m
+            PORT  [33m8585[39m
+            HOST  [33mlocalhost[39m
+       LOCAL-URL  [34mhttp://localhost:8585[39m
+      SERVER-URL  [31mhttp://localhost:8585[39m
+[info]	2021-01-02T20:54:43.591Z
+	[33mLogger module[39m loaded successfully
+[info]	2021-01-02T20:54:43.609Z
+	[33mRouterInitialized[39m event-handler registered successfully
+[info]	2021-01-02T20:54:43.640Z
+	[33mServerInit[39m event-handler registered successfully
+[info]	2021-01-02T20:54:43.640Z
+	[33mEvents module[39m loaded successfully
+[warn]	2021-01-02T20:54:43.642Z
+	[33mNo any database engine has been selected[39m
+[info]	2021-01-02T20:54:43.643Z
+	[33mDatabase module[39m loaded successfully
+[info]	2021-01-02T20:54:43.685Z
+	Route [33mAuthRoute[39m:[32m/auth[39m loaded successfully
+[info]	2021-01-02T20:54:43.688Z
+	Route [33mHomeRoute[39m: loaded successfully
+[info]	2021-01-02T20:54:43.691Z
+	Route [33mscreenerRoute[39m:[32m/screener[39m loaded successfully
+[info]	2021-01-02T20:54:43.701Z
+	[33mRouter module[39m loaded successfully
+[info]	2021-01-02T20:54:43.725Z
+	[33mSession[39m initialized successfully
+[info]	2021-01-02T20:54:43.726Z
+	Express router [33m/auth[39m applied
+[info]	2021-01-02T20:54:43.727Z
+	Express router  applied
+[info]	2021-01-02T20:54:43.727Z
+	Express router [33m/screener[39m applied
+[info]	2021-01-02T20:54:43.735Z
+	[33mExpress module[39m loaded successfully
+[info]	2021-01-02T20:54:43.736Z
+	[33mSystem booted successfully[39m
+[info]	2021-01-02T20:54:43.737Z
+	[33mServerInit[39m handler initialized successfully
+	Sun Jan 03 2021 00:24:43 GMT+0330 (Iran Standard Time)
+[info]	2021-01-02T20:54:43.751Z
+	
+Server started
+        PROTOCOL  [33mhttp[39m
+            PORT  [33m8585[39m
+            HOST  [33mlocalhost[39m
+       LOCAL-URL  [34mhttp://localhost:8585[39m
+      SERVER-URL  [31mhttp://localhost:8585[39m
+[info]	2021-01-02T20:55:40.418Z
+	[33mLogger module[39m loaded successfully
+[info]	2021-01-02T20:55:40.433Z
+	[33mRouterInitialized[39m event-handler registered successfully
+[info]	2021-01-02T20:55:40.457Z
+	[33mServerInit[39m event-handler registered successfully
+[info]	2021-01-02T20:55:40.458Z
+	[33mEvents module[39m loaded successfully
+[warn]	2021-01-02T20:55:40.460Z
+	[33mNo any database engine has been selected[39m
+[info]	2021-01-02T20:55:40.461Z
+	[33mDatabase module[39m loaded successfully
+[info]	2021-01-02T20:55:40.496Z
+	Route [33mAuthRoute[39m:[32m/auth[39m loaded successfully
+[info]	2021-01-02T20:55:40.499Z
+	Route [33mHomeRoute[39m: loaded successfully
+[info]	2021-01-02T20:55:40.502Z
+	Route [33mscreenerRoute[39m:[32m/screener[39m loaded successfully
+[info]	2021-01-02T20:55:40.526Z
+	[33mRouter module[39m loaded successfully
+[info]	2021-01-02T20:55:40.556Z
+	[33mSession[39m initialized successfully
+[info]	2021-01-02T20:55:40.558Z
+	Express router [33m/auth[39m applied
+[info]	2021-01-02T20:55:40.558Z
+	Express router  applied
+[info]	2021-01-02T20:55:40.559Z
+	Express router [33m/screener[39m applied
+[info]	2021-01-02T20:55:40.568Z
+	[33mExpress module[39m loaded successfully
+[info]	2021-01-02T20:55:40.569Z
+	[33mSystem booted successfully[39m
+[info]	2021-01-02T20:55:40.570Z
+	[33mServerInit[39m handler initialized successfully
+	Sun Jan 03 2021 00:25:40 GMT+0330 (Iran Standard Time)
+[info]	2021-01-02T20:55:40.576Z
+	
+Server started
+        PROTOCOL  [33mhttp[39m
+            PORT  [33m8585[39m
+            HOST  [33mlocalhost[39m
+       LOCAL-URL  [34mhttp://localhost:8585[39m
+      SERVER-URL  [31mhttp://localhost:8585[39m
